@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task</title>
+	<meta name='author' content='William Chan' />
+		<meta name='table' content='Tasks' />
+		<script>
+			<!--no script type yet -->
+		</script>
+		<style>
+			<!--no style yet -->
+		</style>
+</head>
+<body>
+	<h1>Tasks</h1>
+	Name your task  <input type="text" name="taskName" id="taskName" value="">
+	<hr>
+	Assign a task ID <input type="text" name="taskID" id="taskID" value="">
+	<hr>
+	Select project this task belong to
+	<select id="projectID" name="projectID">
+		<option value="Project1">Project1</option>
+		<option value="Project2">Project2</option>
+		<option value="Project3">Project3</option>
+		
+	</select>
+	<hr>
+	Select task status 
+	<select id="status" name="status">
+		<option value="unassigned">unassigned</option>
+		<option value="assigned">assigned</option>
+		<option value="complete">complete</option>
+		
+	</select>
+	<hr>
+
+
+
+	Select the phase of your task  
+	<select id="projectID" name="projectID">
+		<option value="RQ001">Requirement</option>
+		<option value="AN001">Analysis</option>
+		<option value="DE001">Design</option>
+		<option value="IM001">Implementation</option>
+		<option value="TE001">Testing</option>
+	</select>
+	<hr>
+	estimated time required for this task 
+	<select id="eStoryPoint" name="eStoryPoint">
+		<option value="less than 2">&lt2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value=">10">10</option>
+		<option value=">11">11</option>
+		<option value=">12">12</option>
+		<option value=">13">13</option>
+		<option value=">14">14</option>
+		<option value=">greater than 14">&gt14</option>
+
+	</select> Story Points
+		<hr>
+	task due date  <input type="date" name="dueDate" id="dueDate" value=""><br>
+		<hr>
+
+	Enter your project description:<br>  
+		<textarea rows="8" cols="90" id="description" name="description"></textarea>
+	
+
+</body>
+</html>
