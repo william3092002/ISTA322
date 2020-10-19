@@ -5,9 +5,10 @@
 1. What is the difference between a property and a field?
 	* A property requires implementation and a field doesn't. 
 2. What is the difference between a property and a method?
-	* A method has invocation operator and a field doesn't.
+	* A method has parameters and properties don't.
 3. What is your understanding of encapsulation?
 	* Ensure the information is contained in the object. 
+	* Encapulate all required elements in one capsul for easy access. 
 4. Some languages are case insensitive, that is, an ‘a” and an “A” are considered to be the same letter.
 C# is case sensitive. What implications does this have regarding the naming of variables, methods,
 and other identifiers? Do you think that the difference in case in the initial character of two different
@@ -18,7 +19,7 @@ identifiers is sufficient to distinguish them¿
 property. Give an example not in the book of an instance where you might want to use s write-only
 property.
 	* you might want to use a read only property to display the price of your commodities.
-	* 
+	* password
 6. Can you think of a reason why you might ever want to make getters and setters private? Give an
 example. Also, make a case why getters and setters should never be private.
 	* when you only want to restrict accessbility to the property partially.

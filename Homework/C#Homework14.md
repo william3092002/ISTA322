@@ -3,10 +3,10 @@
 # Date: 17 August, 2020
 
 1. What is the difference between a managed resource and an unmanaged resource?
-	* managed resources will be automatically clear up by the CLR.
+	* The term "unmanaged resource" is usually used to describe something not directly under the control of the garbage collector. For example, if you open a connection to a database server this will use resources on the server (for maintaining the connection) and possibly other non-.net resources on the client machine, if the provider isn't written entirely in managed code.
 2. When is memory for an object (reference type) allocated? When is the memory deallocated?
 	* When the instanace is intantiated. 
-	* when there is no longer a reference to the object. 
+	* when there is no longer a reference pointing to the object. 
 3. What is a destructor?
 	* A destructor is a special method, a little like a constructor, except that the CLR calls it after the
  reference to an object has disappeared. 
